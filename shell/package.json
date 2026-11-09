@@ -1,0 +1,19 @@
+{
+  "name": "@local/dsh-shell",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Top tab bar for switching between the chat and the global panels",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./tabs": "./tabs.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "tabs.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web", "immediately": true }
+  }
+}

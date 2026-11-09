@@ -1,0 +1,39 @@
+{
+  "name": "@local/dsh-projects",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Issue tracking and progress boards inside the Harness",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./client": "./client.js",
+    "./board-view": "./board-view.js",
+    "./ui-locales": "./ui-locales.js"
+  },
+  "files": [
+    "index.js",
+    "store.js",
+    "client.js",
+    "board-view.js",
+    "ui-locales.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "scripts/link-dsh.sh"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

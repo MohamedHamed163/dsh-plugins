@@ -1,0 +1,3 @@
+- insert:
+    - id: shell-tabs
+      name: '@local/dsh-shell'

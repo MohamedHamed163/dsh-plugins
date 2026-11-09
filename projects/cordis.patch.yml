@@ -1,0 +1,6 @@
+- insert:
+    - id: projects
+      name: '@local/dsh-projects'
+      config:
+        dataDirectory: ''
+        defaultProjectKey: WORK

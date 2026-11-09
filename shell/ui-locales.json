@@ -1,0 +1,58 @@
+{
+  "en": {
+    "tab.chat": "Chat",
+    "tab.projects": "Projects",
+    "tab.tasks": "Tasks",
+    "tab.plugins": "Plugins",
+    "sidebar.toggle": "Toggle sidebar"
+  },
+  "zh": {
+    "tab.chat": "对话",
+    "tab.projects": "项目",
+    "tab.tasks": "任务",
+    "tab.plugins": "插件",
+    "sidebar.toggle": "显示/隐藏侧边栏"
+  },
+  "ja": {
+    "tab.chat": "チャット",
+    "tab.projects": "プロジェクト",
+    "tab.tasks": "タスク",
+    "tab.plugins": "プラグイン",
+    "sidebar.toggle": "サイドバーの表示切り替え"
+  },
+  "es": {
+    "tab.chat": "Chat",
+    "tab.projects": "Proyectos",
+    "tab.tasks": "Tareas",
+    "tab.plugins": "Complementos",
+    "sidebar.toggle": "Mostrar u ocultar la barra lateral"
+  },
+  "fr": {
+    "tab.chat": "Chat",
+    "tab.projects": "Projets",
+    "tab.tasks": "Tâches",
+    "tab.plugins": "Plugins",
+    "sidebar.toggle": "Afficher ou masquer la barre latérale"
+  },
+  "de": {
+    "tab.chat": "Chat",
+    "tab.projects": "Projekte",
+    "tab.tasks": "Aufgaben",
+    "tab.plugins": "Plugins",
+    "sidebar.toggle": "Seitenleiste ein- oder ausblenden"
+  },
+  "ru": {
+    "tab.chat": "Чат",
+    "tab.projects": "Проекты",
+    "tab.tasks": "Задачи",
+    "tab.plugins": "Плагины",
+    "sidebar.toggle": "Показать или скрыть боковую панель"
+  },
+  "pt": {
+    "tab.chat": "Chat",
+    "tab.projects": "Projetos",
+    "tab.tasks": "Tarefas",
+    "tab.plugins": "Plugins",
+    "sidebar.toggle": "Mostrar ou ocultar a barra lateral"
+  }
+}
